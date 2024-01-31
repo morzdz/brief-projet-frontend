@@ -8,20 +8,12 @@
     min-width: 100px;
 }
 
-.search-bar-w {
-    width: 20%;
-}
-
-.input-w {
-    width: 90%;
-}
-
 
 
  /* ANCHOR Img Sizing */
 
 .footer-img {
-    min-height: 300px;
+    min-height: 460px;
     background-image: url("../images/cooking.svg");
     background-position: bottom;
     background-size: 100%;
