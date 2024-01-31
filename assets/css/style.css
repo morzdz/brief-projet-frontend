@@ -202,6 +202,11 @@
     color: #ddd;
 }
 
+.btn-color-hover:hover {
+    background-color: #ddd;
+    color: #2a6914;
+}
+
 
 
 /* ANCHOR Shadow */
