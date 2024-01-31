@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a877892FCB.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="bg-color">
+        <div class="header__box mw-1320 m-auto d-flex align-i-center jc-space-around flex-wrap">
+            <nav class="d-flex align-i-center">
+                <img class="p-1 logo-size" src="assets/images/logo.svg" alt="logo Let's cook">
+                <a href="#" class="white p-1 no-underline">Acceuil</a>
+                <a href="index.html" class="white p-1 no-underline">Recettes</a>
+                <a href="#" class="white p-1 pl-8px no-underline">Tendances</a>
+            </nav>
+            <form class="input-w g-8px d-flex jc-flex-end">
+                <input class="input-br minw-100px em" type="text" placeholder="Search..">
+                <i class="fa-solid fa-magnifying-glass white"></i>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section class="mw-1320 m-auto d-flex jc-center flex-wrap flex-b p-2">
+            <div>
+                <img src="assets/images/pancakes.jpg" alt="Photo de pancakes" width="80%">
+            </div>
+            <div>
+                <h1 class="title green py-8px">Sign Up</h1>
+                <h3 class="dark-gray">Get full access</h3>
+                <form action="" class="py-8px">
+                    <input class="mb-1 form-input-w form-input-br form-border py-8px minw-100px" type="text" id="first-name" placeholder="First Name"><br>
+                    <input class="mb-1 form-input-w form-input-br form-border py-8px minw-100px" type="text" id="name" placeholder="Last Name"><br>
+                    <input class="mb-1 form-input-w form-input-br form-border py-8px minw-100px" type="email" id="email" placeholder="jonhdoe@gmail.com"><br>
+                    <input class="mb-1 form-input-w form-input-br form-border py-8px minw-100px" type="password" id="password" placeholder="Password"><br>
+                    <input class="mb-1 form-input-w form-input-br form-border py-8px minw-100px" type="password" id="confirm-password" placeholder="Confirm Password"><br>
+                    <input class="mb-1 form-input-w form-input-br form-border py-8px minw-100px" type="tel" id="phone" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="Phone"><br>
+                    <button class="btn-border-br btn-border btn-color p-1">Register now</button>
+                </form>
+                <p class="dark-gray">Already have an account ? <a href="#" class="green">Connexion</a></p>
+            </div>
+        </section>
+    </main>
+    
+    <div class="footer-img mb-neg-4px"></div>
+    <footer class="bg-color light-gray">
+        <section class="mw-1320 m-auto d-flex fd-row flex-wrap jc-space-around">
+            <div class="flex p-1">
+                <ul>
+                    <li><a href="#" class="white">Acceuil</a></li>
+                    <li><a href="#" class="white">Recettes</a></li>
+                    <li><a href="#" class="white">Contact</a></li>
+                    <li><a href="#" class="white">Politique de confidentialité</a></li>
+                </ul>
+            </div>
+            <div class="socials flex p-1">
+                <h4 class="white">Suivez-nous</h4>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+            </div>
+            <div class="newsletter flex p-1">
+                <h4 class="white">Abonnez-vous à notre NewsLetter</h4>
+                <form  class="py-8px" action="">
+                    <label for="email">Email:</label><br>
+                    <input class="minw-100px input-br email-input-w" type="email" id="email-footer"><br>
+                </form>
+                <span class="d-flex align-i-baseline">
+                    <input type="checkbox">
+                    <p>Ex voluptas qui sit maxime. Et qui omnis.Et quos iste ratione et ea id ratione.</p>
+                </span>
+            </div>
+        </section>
+        <h3 class="p-1 text-center">&copy 2024</h3> 
+    </footer>
+</body>
+</html>
